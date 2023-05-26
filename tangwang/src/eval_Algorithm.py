@@ -135,7 +135,7 @@ def write_Excel(output_dir,data,title):
     df.to_excel(excel_writer, index=False, sheet_name=sheet_name)
     excel_writer._save()
 
-def mainControl():
+def eval_Algorithm():
 
     #企业分类预测概率 目前没有
     y_scores = [0.93928998708725,0.93928998708725,0.93928998708725,0.84355435135334]
@@ -157,5 +157,5 @@ def mainControl():
 
 if __name__ == '__main__':
 
-    mainControl()
+    eval_Algorithm()
 
